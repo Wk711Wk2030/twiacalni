@@ -7,9 +7,7 @@
       Good Afternoon &nbsp;
       <ion-label *ngFor="let u of user" style="text-transform:capitalize ;"> {{u.name}}</ion-label>
       </div>
-      <div>
-        <img src="https://img.icons8.com/material-rounded/96/000000/certificate--v2.png" width="50px" style="color: gray;"/>
-      </div>
+      
     </div>
   </ion-toolbar>
 </ion-header>
@@ -25,13 +23,13 @@
   <div>
 
     <ion-icon name="eye-outline" size="large"></ion-icon>
-    <!-- <ion-icon name="eye-off-outline" size="large"></ion-icon> -->
+    
     <ion-icon name="notifications-outline" size="large"></ion-icon>
   </div>
 </div>
 
 <div class="id-card">
-  <ion-img *ngFor="let u of user" [src]="u.idCardImage"></ion-img>
+  <ion-img *ngFor="let u of user" [src]="u.idCard"></ion-img>
 </div>
 
 <div class="top-services">

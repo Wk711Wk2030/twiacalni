@@ -8,12 +8,11 @@ export class UserService {
 
   user:User[] = [
     {
-      id: "1200212221",
-      name:"ahmed",
-      image:"https://media.istockphoto.com/photos/headshot-portrait-of-smiling-ethnic-businessman-in-office-picture-id1300512215?b=1&k=20&m=1300512215&s=170667a&w=0&h=LsZL_-vvAHB2A2sNLHu9Vpoib_3aLLkRamveVW3AGeQ=",
-      DOB:"28/04/1992",
-      city:"Riyadh",
-      idCardImage:"../assets/idbg.png"
+      id: "1110002030",
+      name:"Norah",
+      DOB:"31/08/1985",
+      city:"Jeddah",
+      idCard:"https://sa2eh.awicdn.com/site-images/sites/default/files/sa2eh-prod/article/4/5/333208/31ec26c4d8873a6173254a4dab2ab61fe4e8bceb-031119104729.jpg?preset=v3.0_1200xDYN&save-png=1&rnd=1519151RND220215&watermark_client=layalina&croptop=1"
     }
   ]
 
